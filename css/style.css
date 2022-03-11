@@ -17,6 +17,56 @@ h1, h2, h3, h4, h5, h6 {
 }
 #titleNav {
   text-align: center;
+  margin-top: 1.4em;
+}
+#navText {
+  text-align: center;
+  font-size: 1.2em;
+}
+#navigation {
+  color: blue;
+}
+#mintBtn {
+  text-align: center;
+}
+#introBlock {
+  display: flex;
+  align-items: center;
+}
+/* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+/* Style the icon bar links */
+.icon-bar a {
+  display: block;
+  text-align: center;
+  padding: 16px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 20px;
+}
+
+/* Style the social media icons with color, if you want */
+
+.twitter {
+  background: #55ACEE;
+  color: white !important;
+}
+
+.github {
+  background: #24292f;
+  color: white !important;
+}
+
+.discord {
+  background: #5865f2;
+  color: white !important;
 }
 
 /*=== MEDIA QUERY ===*/
@@ -494,7 +544,7 @@ a:focus, a:hover {
 }
 
 .navigation .navbar-nav > li > a {
-  color: #707d8f;
+  color: #b3b0a1;
   font-size: 15px;
   line-height: 26px;
   padding: 20px 15px !important;
@@ -603,7 +653,6 @@ a:focus, a:hover {
 
 .hero-area {
   padding: 150px 0;
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1305,7 +1354,6 @@ a:focus, a:hover {
 ==================================================================*/
 .testimonial {
   background: #f0326b;
-  position: relative;
 }
 
 .testimonial .item i {
