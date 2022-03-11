@@ -1292,10 +1292,13 @@ a:focus, a:hover {
           transform: scale(1.1);
 }
 
+.teamDiv {
+  height: 30em;
+}
+
 .team-member:hover .mask {
   opacity: 1;
 }
-
 .team-member .member-content {
   padding: 25px 0;
 }
